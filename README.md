@@ -39,12 +39,13 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TashmithBopage&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" width="48%" />
-  <img src="https://streak-stats.demolab.com?user=TashmithBopage&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TashmithBopage&theme=tokyonight" width="96%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TashmithBopage&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TashmithBopage&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TashmithBopage&theme=tokyonight" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TashmithBopage&theme=tokyonight" width="32%" />
 </p>
 
 ---
