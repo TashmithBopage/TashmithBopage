@@ -42,7 +42,7 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://img.shields.io/badge/public_repos-0-blue?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/public_repos-6-blue?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/followers-0-orange?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
