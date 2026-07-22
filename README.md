@@ -27,6 +27,7 @@
 ### ⚙️ Frameworks & Tools
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -41,8 +42,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TashmithBopage&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TashmithBopage&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=TashmithBopage&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TashmithBopage&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=TashmithBopage&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="70%" />
 </p>
 
 ---
