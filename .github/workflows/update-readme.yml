@@ -1,0 +1,28 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update repo count
+        run: |
+          REPO_COUNT=$(curl -s "https://api.github.com/users/TashmithBopage" | python3 -c "import sys,json; print(json.load(sys.stdin)['public_repos'])")
+          FOLLOWERS=$(curl -s "https://api.github.com/users/TashmithBopage" | python3 -c "import sys,json; print(json.load(sys.stdin)['followers'])")
+          sed -i "s/public_repos-[0-9]*/public_repos-${REPO_COUNT}/" README.md
+          sed -i "s/followers-[0-9]*/followers-${FOLLOWERS}/" README.md
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "Auto update stats"
+          git push
